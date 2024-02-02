@@ -1,7 +1,9 @@
 # domain-redirects
-Simple repository for setting up Digital Ocean Static Apps for doing domain redirects. By default, your base application will redirect to https://example.com, but you can change this in your domain settings once you've deployed to digital ocean using the button below:
+Simple repository for setting up DigitalOcean Static Apps for doing domain redirects. By default, your base application will redirect to https://example.com, but you can change this in your domain settings once you've deployed to DigitalOcean using the button below:
 
 [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/SocksTheWolf/domain-redirects/tree/main&refcode=b6f00eb15df2)
+
+(Small Disclosure Note: I inject my refcode into the project setup URL, so if you ever buy anything on DigitalOcean, I get a small cut, but this entire project is free for up to 3 uses, so I'll probably not make anything)
 
 You can click Skip to Review and then build the application. Everything is set up for you so you do not have to pay anything.
 
@@ -47,3 +49,5 @@ Any future additions _should always_ have the redirection scheme set to HTTPS.
 From here on out, you are done. This will make your URL redirects always work, even if you use a registrar such as namecheap without having to pay for webhosting to handle the redirects. The default DigitalOcean plan allows you to make three of these apps for free for an account. 
 
 Enjoy the good life of having a simple redirection URL for your socials.
+
+You can find me on https://wolf.stream or https://wolf.stream/bsky (wolf.stream's redirects uses this project)
