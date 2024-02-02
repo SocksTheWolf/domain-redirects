@@ -7,7 +7,7 @@ spec:
  ingress:
   rules:
   - component:
-      name: domain-redirects
+      name: empty-host-html
     match:
       path:
         prefix: /420
@@ -23,4 +23,4 @@ spec:
    git:
      branch: main
      repo_clone_url: https://github.com/socksthewolf/domain-redirects.git
-   name: domain-redirects
+   name: empty-host-html
