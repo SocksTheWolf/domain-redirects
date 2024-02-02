@@ -10,6 +10,13 @@ spec:
     match:
       path:
         prefix: /420
+  - match:
+      path:
+        prefix: /
+    redirect:
+      authority: www.example.com
+      redirect_code: 302
+      scheme: https
  static_sites:
  - environment_slug: html
    git:
