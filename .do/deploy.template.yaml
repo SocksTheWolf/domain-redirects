@@ -1,0 +1,18 @@
+spec:
+ region: nyc
+ alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
+ ingress:
+  rules:
+  - component:
+      name: domain-redirect
+    match:
+      path:
+        prefix: /420
+ static_sites:
+ - environment_slug: html
+   git:
+     branch: main
+     repo_clone_url: https://github.com/socksthewolf/domain-redirects.git
+   name: domain-redirect
