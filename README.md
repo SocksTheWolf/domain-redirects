@@ -16,7 +16,7 @@ I have made sure to set up everything that it will not cost you any money.
 
 This guide expects that you have already linked your domain to Digital Ocean [via this page](https://cloud.digitalocean.com/networking/domains). You can find a guide on how to do this properly [here](https://docs.digitalocean.com/products/networking/dns/how-to/add-domains/).
 
-Once you have built and deployed the app for the first time (automatically done upon build), you will be taken to the settings screen. From here, you can edit your domains. Click on the Edit button highlighted in the box below.
+Once you have built and deployed the app for the first time (automatically done upon "Creating Resources" or "Building"), you will be taken to the settings screen. From here, you can edit your domains. Click on the Edit button highlighted in the box below.
 
 ![Edit Domains](/images/domains-setting.png)
 
