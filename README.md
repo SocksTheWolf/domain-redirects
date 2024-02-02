@@ -10,7 +10,7 @@ By default, your base application will redirect to https://example.com, but you 
 ---
 You can click "Skip to Review" and then click "Create Resources". 
 
-I have made sure to set up everything that it will not cost you any money.
+I have made sure to set up everything that it will not cost you money. You may need a Paypal or Credit Card to initially set up a DigitalOcean account, but given this project uses the free starter plan, you should not get charged.
 
 # Configuring Domains
 
@@ -41,7 +41,7 @@ Once clicked, a new window will appear for setting routing rules.
 ![HTTP Routing Rules](/images/routerules.png)
 
 1. Route Path: This is the location on your domain that triggers the routing. A single slash will mean going to the website by with no pathing will trigger the redirection.
-2. Redirect URI: This will be where on the Redirect Authority you should navigate to. If you leave it empty, it will use the value from the value in the first step. If you were redirecting to twitch, you should put a `/CHANNELNAME` in this field
+2. Redirect URI: This will be where on the Redirect Authority you should navigate to. If you leave it empty, it will use the value from the value in the first step. If you were redirecting to Twitch, you should put a `/CHANNELNAME` in this field
 3. Redirect Authority: The domain that you would be redirecting to. If you were redirecting to Twitch, this would be a simple `twitch.tv`
 4. If you wanted to add more redirects, say something like `yourdomain.tld/store` you could do so by adding more routes.
 
