@@ -38,6 +38,8 @@ Once clicked, a new window will appear for setting routing rules.
 3. Redirect Authority: The domain that you would be redirecting to. If you were redirecting to Twitch, this would be a simple `twitch.tv`
 4. If you wanted to add more redirects, say something like `yourdomain.tld/store` you could do so by adding more routes.
 
+Any future additions _should always_ have the redirection scheme set to HTTPS.
+
 **NOTE**: REMEMBER TO SAVE AFTER CONFIGURING. Your project may take a bit of time to build once you have done this.
 
 # Conclusion
