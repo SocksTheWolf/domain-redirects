@@ -5,12 +5,12 @@ By default, your base application will redirect to https://example.com, but you 
 
 [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/SocksTheWolf/domain-redirects/tree/main&refcode=b6f00eb15df2)
 
-(Small Disclosure Note: I included my refcode into the project setup URL, so if you ever buy anything on DigitalOcean, I get a small cut. However, this project can be ran on the DO Starter Tier, which allows for up to three apps free)
+(Small Disclosure Note: I included my refcode into the project setup URL, so if you ever buy anything on DigitalOcean, I get a small cut. However, this project can be ran on the [DO Starter Tier](https://www.digitalocean.com/pricing/app-platform), which allows for up to three apps free)
 
 ---
 You can click "Skip to Review" and then click "Create Resources". 
 
-I have made sure to set up everything so that it will qualify for the free usage tier. You may need a Paypal or Credit Card to initially set up a DigitalOcean account, but given this project is configured to use the free starter plan, you should not get charged.
+I have made sure to set up everything so that it will qualify for the free usage tier. You may need a Paypal or Credit Card to initially set up a DigitalOcean account, but given this project is configured to use the free starter plan, you should not get charged (redirects use almost no bandwidth).
 
 # Configuring Domains
 
