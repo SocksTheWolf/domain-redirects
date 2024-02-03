@@ -10,7 +10,7 @@ By default, your base application will redirect to https://example.com, but you 
 ---
 You can click "Skip to Review" and then click "Create Resources". 
 
-I have made sure to set up everything so that it will qualify for the free usage tier. You may need a Paypal or Credit Card to initially set up a DigitalOcean account, but given this project is configured to use the free starter plan, you should not get charged (redirects use almost no bandwidth).
+I have made sure to set up everything so that it will qualify for the free usage tier. You may need a Paypal or Credit Card to initially set up a DigitalOcean account, but given this project is configured to use the free starter plan, you should not get charged.
 
 # Configuring Domains
 
@@ -53,7 +53,7 @@ Any future additions _should always_ have the redirection scheme set to `https`.
 
 # Conclusion
 
-From here on out, you are done. This will make your URL redirects always work, even if you use a registrar such as NameCheap, without having to pay for webhosting to handle the redirects (the alternative). The default DigitalOcean plan allows you to make three of these apps for free for an account. 
+From here on out, you are done. This will make your URL redirects always work, even if you use a registrar such as NameCheap, without having to pay for webhosting to handle the redirects (the alternative). As mentioned above, this project qualifies for the [DO Starter Tier](https://www.digitalocean.com/pricing/app-platform), which lets you make three apps like these for free.
 
 Enjoy the good life of having a simple redirection URL for your socials.
 
