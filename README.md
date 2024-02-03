@@ -53,8 +53,10 @@ Any future additions _should always_ have the redirection scheme set to `https`.
 
 # Conclusion
 
-From here on out, you are done. This will make your URL redirects always work, even if you use a registrar such as NameCheap, without having to pay for webhosting to handle the redirects (the alternative). As mentioned above, this project qualifies for the [DO Starter Tier](https://www.digitalocean.com/pricing/app-platform), which lets you make three apps like these for free.
+From here on out, you are done. This will make your URL redirects always work, even if you use a registrar such as NameCheap, without having to pay for webhosting to handle the redirects (the alternative). As mentioned above, this project qualifies for the [DO Starter Tier](https://www.digitalocean.com/pricing/app-platform), which lets you make three apps like this project for free.
 
 Enjoy the good life of having a simple redirection URL for your socials.
+
+---
 
 You can find me on https://wolf.stream or https://wolf.stream/bsky (wolf.stream's redirects uses this project)
