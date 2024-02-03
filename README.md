@@ -42,12 +42,12 @@ Once clicked, a new window will appear for setting routing rules.
 
 ![HTTP Routing Rules](/images/routerules.png)
 
-1. Route Path: This is the location on your domain that triggers the routing. A single slash will mean going to the website by with no pathing will trigger the redirection.
-2. Redirect URI: This will be where on the Redirect Authority you should navigate to. If you leave it empty, it will use the value from the value in the first step. If you were redirecting to Twitch, you should put a `/CHANNELNAME` in this field
+1. Route Path: This is the location on your domain that triggers the routing. A single slash will mean the base domain will trigger the redirect. You can put other paths here too! **Example**: if you put `/store` then going to `yourdomain.tld/store` will trigger the redirect.
+2. Redirect URI: This will be where on the Redirect Authority you should navigate to. If you leave it empty, it will use the value from  the first step. If you were redirecting to Twitch, you should put a `/CHANNELNAME` in this field
 3. Redirect Authority: The domain that you would be redirecting to. If you were redirecting to Twitch, this would be a simple `twitch.tv`
-4. If you wanted to add more redirects, say something like `yourdomain.tld/store` you could do so by adding more routes.
+4. If you wanted to add more redirects, say something like `yourdomain.tld/store` you could do so by adding more routes. Just put `/store` into the box marked 1.
 
-Any future additions _should always_ have the redirection scheme set to `https`.
+Any future additions _should always_ have the redirection scheme set to `https`. 
 
 **NOTE**: REMEMBER TO SAVE AFTER CONFIGURING. Your project may take a bit of time to build once you have done this.
 
