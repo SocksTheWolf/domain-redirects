@@ -5,7 +5,7 @@ By default, your base application will redirect to https://example.com, but you 
 
 [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/SocksTheWolf/domain-redirects/tree/main&refcode=b6f00eb15df2)
 
-(Small Disclosure Note: I included my refcode into the project setup URL, so if you ever buy anything on DigitalOcean, I get a small cut. However, this project can be ran on the DO Starter Tier, which allows for up to three apps free. It is highly unlikely that I'll make anything)
+(Small Disclosure Note: I included my refcode into the project setup URL, so if you ever buy anything on DigitalOcean, I get a small cut. However, this project can be ran on the DO Starter Tier, which allows for up to three apps free)
 
 ---
 You can click "Skip to Review" and then click "Create Resources". 
@@ -53,7 +53,7 @@ Any future additions _should always_ have the redirection scheme set to `https`.
 
 # Conclusion
 
-From here on out, you are done. This will make your URL redirects always work, even if you use a registrar such as NameCheap without having to pay for any webhosting to handle the redirects. The default DigitalOcean plan allows you to make three of these apps for free for an account. 
+From here on out, you are done. This will make your URL redirects always work, even if you use a registrar such as NameCheap, without having to pay for webhosting to handle the redirects (the alternative). The default DigitalOcean plan allows you to make three of these apps for free for an account. 
 
 Enjoy the good life of having a simple redirection URL for your socials.
 
