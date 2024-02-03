@@ -10,7 +10,7 @@ By default, your base application will redirect to https://example.com, but you 
 ---
 You can click "Skip to Review" and then click "Create Resources". 
 
-I have made sure to set up everything so that it will qualify for the free usage tier. You may need a Paypal or Credit Card to initially set up a DigitalOcean account, but given this project is configured to use the free starter plan, you should not get charged.
+I have made sure to set up everything so that it will use the free starter plan. You may need a Paypal or Credit Card to initially set up a DigitalOcean account, but given this project is configured to use the free starter plan, you should not get charged.
 
 # Configuring Domains
 
