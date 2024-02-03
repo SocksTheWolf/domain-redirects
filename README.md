@@ -60,3 +60,7 @@ Enjoy the good life of having a simple redirection URL for your socials.
 ---
 
 You can find me on https://wolf.stream or https://wolf.stream/bsky (wolf.stream's redirects uses this project)
+
+You can also support future development efforts via Ko-Fi:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R7U22JM)
