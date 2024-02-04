@@ -1,11 +1,11 @@
 # domain-redirects
 Simple project for setting up DigitalOcean Static Apps for doing domain redirects. 
 
-By default, your base application will redirect to https://example.com, but you can change this in your domain settings once you've deployed to DigitalOcean using the button below:
+By default, your default install will redirect to https://example.com, but you can change this via routing settings once deployed to DigitalOcean using the button below:
 
 [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/SocksTheWolf/domain-redirects/tree/main&refcode=b6f00eb15df2)
 
-(Small Disclosure Note: I included my refcode into the project setup URL, so if you ever buy anything on DigitalOcean, I get a small cut. However, this project is set up to be ran on the [DO Starter Tier](https://www.digitalocean.com/pricing/app-platform), which allows for up to three apps free)
+(Small Disclosure Note: I included my refcode into the project setup button above, so if you ever buy anything extra on DigitalOcean, I may get a small credit for my account. However, this project is set up to be ran on the [DO Starter Tier](https://www.digitalocean.com/pricing/app-platform), which allows for up to three apps free)
 
 ---
 You can click "Skip to Review" and then click "Create Resources". 
@@ -14,7 +14,7 @@ I have made sure to set up everything so that it will use the free starter plan.
 
 # Configuring Domains
 
-This guide expects that you have already linked your domain to DigitalOcean [via this page](https://cloud.digitalocean.com/networking/domains). You can find a guide on how to do this properly [here](https://docs.digitalocean.com/products/networking/dns/how-to/add-domains/).
+This guide expects that you have already linked your domain to DigitalOcean [via this page](https://cloud.digitalocean.com/networking/domains). You can find a guide on [how to do this properly here](https://docs.digitalocean.com/products/networking/dns/how-to/add-domains/).
 
 Once you have built and deployed the app for the first time (automatically done upon "Creating Resources" or "Building"), you will be taken to the settings screen. 
 
@@ -28,11 +28,13 @@ On this page, type in your domain name, confirm your nameserver/record settings 
 
 ![Domains Settings](/images/www.png)
 
+If this is your first time setting up domains with DigitalOcean, it may take up to 24-48hrs for DNS propagation. However, you can (and should) continue configuring the project during this window of time.
+
 **NOTE**: If you aren't using a CNAME based host like Google Sites, remember to also go back and add the `www.` version of your domain as well.
 
 # Configuring Redirects
 
-Once your domains are properly set up, you are now ready to set up the routing rules.
+With your domain records properly set up, you are now ready to set up the routing rules.
 
 Click the "HTTP Routes Redirect" edit button on your settings page to get started.
 
@@ -47,13 +49,15 @@ Once clicked, a new window will appear for setting routing rules.
 3. Redirect Authority: The domain that you would be redirecting to. If you were redirecting to Twitch, this would be a simple `twitch.tv`
 4. If you wanted to add more redirects, say something like `yourdomain.tld/store` you could do so by adding more routes. Just put `/store` into the box marked 1.
 
-Any future additions _should always_ have the redirection scheme set to `https`. 
+By default, the redirection scheme will use `https`. If your target site doesn't support it (a rare case), write in `http`.
 
 **NOTE**: REMEMBER TO SAVE AFTER CONFIGURING. Your project may take a bit of time to build once you have done this.
 
 # Conclusion
 
-From here on out, you are done. This will make your URL redirects always work, even if you use a registrar such as NameCheap, without having to pay for webhosting to handle the redirects (the alternative). As mentioned above, this project qualifies for the [DO Starter Tier](https://www.digitalocean.com/pricing/app-platform), which lets you make three apps like this project for free.
+From here on out, you are done. You can always add, modify and remove routes in the future as well.
+
+This project will make your URL redirects always work, even if you use a registrar such as NameCheap, without having to pay for webhosting to handle the redirects (the alternative). As mentioned before, this project qualifies for the [DO Starter Tier](https://www.digitalocean.com/pricing/app-platform), which lets you make three apps like this project for free.
 
 Enjoy the good life of having a simple redirection URL for your socials.
 
