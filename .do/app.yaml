@@ -6,3 +6,5 @@ static_sites:
     deploy_on_push: true
     repo: SocksTheWolf/domain-redirects
   name: empty-host-html
+  source_dir: redirect
+  output_dir: /
