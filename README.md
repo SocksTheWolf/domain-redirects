@@ -7,6 +7,10 @@ By default, your default install will redirect to https://example.com, but you c
 
 (Small Disclosure Note: I included my refcode into the project setup button above, so if you ever buy anything extra on DigitalOcean, I may get a small credit for my account. However, this project is set up to be ran on the [DO Starter Tier](https://www.digitalocean.com/pricing/app-platform), which allows for up to three apps free)
 
+**NOTE**:
+
+This project still works, but doesn't need active updates anymore. I've marked it as archived, but you're still welcome to use it, everything will work as is written below.
+
 ---
 You can click "Skip to Review" and then click "Create Resources". 
 
